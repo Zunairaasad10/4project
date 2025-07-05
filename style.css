@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    
+
+  }
+    
+  footer {
+    text-align: center;
+    padding: 10px;
+    
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 5px;
+  }
+  
+  header img{
+    margin-right: 15px;
+  }
+  
+  .logo {
+    width: 60px; /* Adjust size of the logo */
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  nav {
+    flex-grow: 1;
+    text-align: right; /* Align navigation to the right */
+  }
+  
+  nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  #about h2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #dcc295;
+    
+  }
+
+  #about p{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 25px;
+  }
+  #best-sellers h2{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color: #dcc295;
+  }
+  .wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+
+  main h2{
+    display: flex;
+    justify-content:center;
+    padding: 15px;
+    background-color: #dcc295;
+  }
+
+  .contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  
+}
+
+form {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  width: 300px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+ 
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: #e8c3a8;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  justify-self: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.product-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.product-card del {
+  color: rgb(143, 14, 14);
+}
+
+.site-bg {
+  background-image: url('back\ ground\ canvas\ and\ craft.png'); /* Replace with your own image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
